@@ -1,0 +1,19 @@
+{
+  "name": "rigtools",
+  "version": "1.0.0",
+  "description": "Devtools Code Execution",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "author": "FWSmasher",
+  "dependencies": {
+    "@types/chrome": "^0.0.267",
+    "@types/node": "^18.0.6",
+    "finalhandler": "^1.2.0",
+    "http": "^0.0.1-security",
+    "readline-sync": "^1.4.10",
+    "serve-static": "^1.15.0",
+    "ws": "^8.17.0"
+  }
+}
