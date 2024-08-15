@@ -290,7 +290,7 @@ class DefaultExtensionCapabilities extends ExtensionCapabilities {
       }
       case "wr3nch": {
         // Wr3nch.js
-        const wr3nch = await fetch('https://paste.mozilla.org/8exUQDn7/raw');
+        const wr3nch = await fetch('https://raw.githubusercontent.com/blitzbrian/rigtools/main/payloads/wr3nch.js');
 
         let x = await wr3nch.text()
 
